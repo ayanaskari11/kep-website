@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiwi Education Partners - Your Pathway to Global Education Success</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>KEP</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Your Pathway to Global Education Success</h1>
+                <p>Expert guidance for international education, from applications to visa success</p>
+                <a href="#booking" class="btn btn-primary">Book Your Discovery Call</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Packages -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title">What We Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>PhD Admission Consultation</h3>
+                    <p>Expert guidance for doctoral program applications worldwide</p>
+                    <a href="services.html#phd" class="btn-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-passport"></i>
+                    <h3>Visa Guidance</h3>
+                    <p>Complete support for student visa applications and documentation</p>
+                    <a href="services.html#visa" class="btn-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Application Support</h3>
+                    <p>End-to-end assistance with university applications</p>
+                    <a href="services.html#application" class="btn-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Are -->
+    <section class="who-we-are">
+        <div class="container">
+            <div class="content-split">
+                <div class="text-content">
+                    <h2>Who We Are</h2>
+                    <p>Kiwi Education Partners was founded with a simple mission: to make international education accessible to ambitious students worldwide. Our team of experienced consultants has helped hundreds of students achieve their dreams of studying abroad.</p>
+                    <p>What started as a small consultancy has grown into a trusted partner for students seeking quality education opportunities globally.</p>
+                </div>
+                <div class="image-content">
+                    <img src="images/team-photo.jpg" alt="KEP Team" class="team-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Does KEP Do -->
+    <section class="process-section">
+        <div class="container">
+            <h2 class="section-title">How We Work</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Free Consultation</h3>
+                    <p>Discuss your goals and assess your profile</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Qualification Assessment</h3>
+                    <p>Match you with suitable programs and universities</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Application & Support</h3>
+                    <p>Guide you through applications and visa process</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Work With Us -->
+    <section class="why-us">
+        <div class="container">
+            <h2 class="section-title">Why Work With Us?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-users"></i>
+                    <h3>Expert Team</h3>
+                    <p>Consultants with years of experience in international education</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Proven Track Record</h3>
+                    <p>95% success rate in university admissions</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-user-check"></i>
+                    <h3>Personalized Support</h3>
+                    <p>Tailored guidance based on your unique profile and goals</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-globe"></i>
+                    <h3>Global Network</h3>
+                    <p>Partnerships with top universities worldwide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- YouTube Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h2 class="section-title">Learn More About International Education</h2>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                        title="KEP Introduction Video" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking-section">
+        <div class="container">
+            <h2 class="section-title">Ready to Start Your Journey?</h2>
+            <p class="section-subtitle">Book a free discovery call with our experts</p>
+            <div class="booking-widget">
+                <!-- Calendly inline widget -->
+                <div class="calendly-inline-widget" 
+                     data-url="https://calendly.com/your-link/discovery-call" 
+                     style="min-width:320px;height:630px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kiwi Education Partners</h3>
+                    <p>Your trusted partner in international education</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> info@kiwieducation.com</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 8900</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Education St, City</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kiwi Education Partners. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</body>
+</html>
